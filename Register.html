@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lazy Busy Collection's</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow" id="navbgcolor">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand logo p text-success align-self-center" href="index.html">
+                Lazy Busy Collection's
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmain" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="navmain">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            Home
+                        </li>
+                        <li class="nav-item">
+                            Services
+                        </li>
+                        <li class="nav-item">
+                            Products
+                        </li>
+                        <li class="nav-item">
+                            Register
+                        </li>
+                        <li class="nav-item">
+                            Register
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <input type="color" id="navcolor" name="navcolor" class="border border-dark" value="">
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row py-5">
+            <form class="col-md-9 m-auto">
+
+                <div class="row">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputname">First Name :</label>
+                        <input type="text" class="form-control mt-1" id="fname" name="fname" placeholder="First Name"
+                            required>
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label for="inputname">Last Name :</label>
+                        <input type="text" class="form-control mt-1" id="lname" name="lname" placeholder=" Last Name"
+                            required>
+                    </div>
+                </div>
+
+                <div class="row pt-4">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputemail">Email ID :</label>
+                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email ID"
+                            required>
+                    </div>
+                    <div class="form-group col-md-6 mb-1">
+                        <label for="inputname">Mobile Number :</label>
+                        <input type="text" class="form-control mt-1" id="mob" name="mob" placeholder="Mobile Number" required>
+                    </div>
+                </div>
+
+                <div class="mb-1 pt-4">
+                    Gender : &nbsp;
+                    <input type="radio" name="gender" class="mt-1" id="male-radiobtn" value="male" required> Male
+                    <input type="radio" name="gender" class="mt-1" id="female-radiobtn" value="female"> Female
+                </div>
+
+                <div class="mb-3 pt-4">
+                    <label for="inputmessage">Address :</label>
+                    <textarea class="form-control mt-1" id="addr" name="addr" placeholder="Address" rows="2"></textarea>
+                </div>
+                <div class="row pt-4">
+                    <div class="col text-end mt-2">
+                        <button type="button" class="btn btn-success btn-lg px-3" onclick="validate()">Register</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark">
+
+        <div class="w-100 bg-black py-3">
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2022 Lazy Busy Collection's
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
